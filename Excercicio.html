@@ -21,16 +21,40 @@
     <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
     </a>
-    <h2></h2>
 
+    <h2></h2>
 
     <script type="text/javascript">
     	var primeiroValor = parseInt(prompt ("Digite o primeiro valor:"))
 
     	var segundoValor = parseInt(prompt ("Digite o segundo valor:"))
+    	var resultado = primeiroValor - segundoValor
 
-    	var resultado = primeiroValor * segundoValor
-    	document.write("<h2>" + resultado + "</h2>")
+    	var operacao = prompt("Digite 1 para fazer uma Divisão, 2 para Multiplicação, 3 para Subtrair e 4 para somar:")
+
+    	if (operacao == 1) {
+
+		var resultado = primeiroValor / segundoValor
+		document.write("<h2>" + primeiroValor + " / " + segundoValor + " = " + resultado + "</h2>")
+
+    	} else if (operacao == 2) {
+
+    		var resultado = primeiroValor * segundoValor
+		document.write("<h2>" + primeiroValor + " X " + segundoValor + " = " + resultado + "</h2>")
+
+    	} else if (operacao == 3) {
+
+    		var resultado = primeiroValor - segundoValor
+		document.write("<h2>" + primeiroValor + " - " + segundoValor + " = " + resultado + "</h2>")
+
+    	} else if (operacao == 4) {
+
+    		var resultado = primeiroValor + segundoValor
+		document.write("<h2>" + primeiroValor + " + " + segundoValor + " = " + resultado + "</h2>")
+
+    	}
+
+    	
 
     </script>
 </body>

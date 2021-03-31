@@ -40,7 +40,7 @@ body {
     position: absolute;
     font-size:16px;
     font-weight:bold;
-    top: 142px;
+    top: 103px;
     left: calc(50% - 72.5px);
     width: 145px;
     text-align:center;
@@ -53,8 +53,3 @@ body {
     right:10px;
   }
 
-  .ResultadoDaAltura {
-    margin: 50px;
-
-
-  }
